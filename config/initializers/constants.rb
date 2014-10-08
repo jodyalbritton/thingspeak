@@ -12,7 +12,7 @@ RATE_LIMIT_FREQUENCY = '15'
 APPLICATION_IP_ADDRESS = '127.0.0.1'
 
 # domain for the API
-API_DOMAIN = 'http://127.0.0.1:3000/'
+API_DOMAIN = 'http://thingspeak.thinglayer.net'
 
 # get api key from HTTP headers if this value is present
 HTTP_HEADER_API_KEY_NAME = 'THINGSPEAKAPIKEY'
@@ -25,7 +25,7 @@ CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
 
 # reset password base url
-RESET_PASSWORD_URL = 'http://127.0.0.1:3000//users/reset_password/'
+RESET_PASSWORD_URL = 'http://thingspeak.thinglayer.net/users/reset_password/'
 
 # allow only these additional locales (use downcase, easier to parse)
 ALLOWED_LOCALES = ['pt-br','it']
